@@ -1,0 +1,25 @@
+
+.overlay {
+  background-color: #1abc9ca8;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.plusIcon {
+  font-size: 100px;
+
+}
+
+.cursor {
+  cursor: pointer;
+}
